@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2 class="icon">🤖 AI Chatbot</h2>
+
+      <div class="icon-wrapper">
+        <span class="tooltip-text">Don't hover me 😡</span>
+        <p class="heart" id="heart">❤️</p>
+      </div>
+      
+      <div class="controls">
+        <button id="clearChat">🗑️</button>
+        <button id="downloadChat">📥</button>
+        <button id="themeToggle">🌓</button>
+        <button id="micBtn">🎤</button>
+      </div>
+    </div>
+    <div class="chat-window" id="chatWindow"></div>
+    <div class="chat-input-area">
+      <input type="text" id="chatInput" placeholder="Type a message..." />
+
+
+      <button id="emojiBtn">😊</button>
+
+      
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
